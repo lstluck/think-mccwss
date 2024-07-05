@@ -1,8 +1,8 @@
 <?php
 
 namespace mccwss;
-use mccwss\command\WebSocketServer as ServerCommand;
 
+use mccwss\command\WebSocketServer as ServerCommand;
 class Server extends \think\Service
 {
     public function boot()
