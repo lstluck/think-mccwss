@@ -31,13 +31,14 @@
             "\\tests\\mccwss\\": "tests/"
         }
     },
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "platform-check": false,
-        "platform": {
-            "ext-swoole": "4.6.1",
-            "ext-fileinfo": "1.0.4"
+    "extra": {
+        "think": {
+            "services": [
+                "mccwss\\Service"
+            ],
+            "config": {
+                "swoole": "src/config/mccwss.php"
+            }
         }
     }
 }
