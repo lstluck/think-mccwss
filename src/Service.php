@@ -12,6 +12,8 @@ class Service extends \think\Service
         $this->commands(
             ServerCommand::class
         );
+
+
     }
 
 }
