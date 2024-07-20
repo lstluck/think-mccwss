@@ -14,3 +14,4 @@ class Service extends \think\Service
         );
     }
 }
+
