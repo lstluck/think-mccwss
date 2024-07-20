@@ -15,6 +15,7 @@ return [
         'mode'       => SWOOLE_PROCESS,
         'sockType'   => SWOOLE_SOCK_TCP,// SWOOLE_SOCK_TCP | SWOOLE_SSL
         'options'    => [
+            
             'worker_num'        => 2,//swoole_cpu_num(),//设置启动的Worker进程数
             'reactor_num'       => swoole_cpu_num(),
             'task_worker_num'   => 2,//swoole_cpu_num(),//swoole_cpu_num(),
